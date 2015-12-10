@@ -11,7 +11,7 @@ class PinsController < ApplicationController
   def new
     @pin = Pin.new
   end
-t
+
   def edit
   end
 
