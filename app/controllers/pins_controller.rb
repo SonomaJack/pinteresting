@@ -21,7 +21,7 @@ t
     if @pin.save
       redirect_to @pin, notice: 'Pin was successfully created.' 
     else
-      render action: 'new' 
+      render  'new' 
     end
   end
 
@@ -30,7 +30,7 @@ t
     if @pin.update(pin_params)
       redirect_to @pin, notice: 'Pin was successfully updated.' 
     else
-      render :action 'edit' 
+      render   'edit' 
     end
   end
 
